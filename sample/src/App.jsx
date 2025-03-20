@@ -4,11 +4,12 @@ import Demo from "./components/Demo";
 import Todos from "./components/Todos";
 import React from "react";
 import {PackageDetails}  from "./components/PackageDetails";
+import Button from "./components/Button";
 
 const App = () =>{
   return(
     <div>
-      <PackageDetails/>
+      <Button label={"Click me"}/>
     </div>
   )
 };
